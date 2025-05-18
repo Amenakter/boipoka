@@ -48,7 +48,7 @@ export default function BookDetails({ perams }) {
           <div className="divider"></div>
           <p>{review}</p>
           <div className="flex gap-5 items-center mt-8">
-            Tag:{" "}
+            Tag:
             {tags.map((tag, index) => (
               <button key={index} className="btn bg-green-200 text-green-600">
                 {tag}
